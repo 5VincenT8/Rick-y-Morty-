@@ -1,0 +1,41 @@
+.footer {
+  background-color: #202329;
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 2px solid #00ff00;
+  margin-top: auto; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  width: 40px;              
+  height: auto;
+}
+
+.cred {
+  font-family: 'Arial', sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  color: whitesmoke;
+}
+
+.text {
+  font-family: 'Courier New', monospace;
+  color: #00ff00;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.catchphraseContainer {
+  display: flex;
+  flex-direction: row;     
+  align-items: center;      
+  justify-content: center;  
+  gap: 20px;               
+  white-space: nowrap;      
+}

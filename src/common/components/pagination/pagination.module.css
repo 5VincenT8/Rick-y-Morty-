@@ -1,0 +1,18 @@
+.pageNumber {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+  min-width: 30px;
+  text-align: center;
+  color: #00ff00; /* Verde neón para el número */
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.5); /* Un pequeño brillo opcional */
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white; /* Aseguramos que el número de página sea visible */
+  font-weight: bold;
+  font-size: 1.2rem;
+}

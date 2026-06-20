@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  gap: 15px; 
+  padding: 15px 20px 20px 20px;
+  background-color: #202329;
+  border-bottom: 2px solid #00ff00;
+}
+
+.logo {
+  width: 200px; 
+  height: auto;
+  margin-bottom: -35px;
+  margin-top: -25px;
+}
+
+.menu {
+  display: flex;
+  gap: 40px; /* Reduje el gap de 100px a 40px para que no sea tan largo */
+  justify-content: center;
+}
+
+.menu a {
+  text-decoration: none; 
+  transition: color 0.3s ease-in-out; 
+}
+
+.menu a h3 {
+  margin: 0;
+  color: #00ff00;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; 
+}
+
+.menu a:hover h3 {
+  color: #ffffff;
+}
+
+/* Fila de filtros: Aquí está la clave */
+.filtrosWrapper {
+  display: flex;
+  flex-direction: row; /* Fila */
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.input {
+  width: 200px; /* Tamaño fijo para que se vea ordenado */
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.filtros {
+  display: flex;
+  gap: 10px;
+}
+
+.filtros select {
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

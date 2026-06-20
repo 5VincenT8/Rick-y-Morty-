@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  cursor: pointer;
+
+  height: 46px;
+  border: 0;
+
+  color: var(--slate-100);
+
+  border-radius: 10px;
+
+  background-color: var(--stone-950);
+}
